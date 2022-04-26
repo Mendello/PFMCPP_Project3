@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) blinkers
+        4) horn
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) activate blinkers
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speedometer
+        2) gear indicator
+        3) blinker status
+        4) board alarm
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) activate blinker
+        2) show alarm
+        3) show current gear
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) seat heater
+        2) air condition 
+        3) flow conrol
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) adjust heating level
+        2) adjust temperature
+        3) adjust flow control
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) audio volume control
+        2) rotary knob
+        3) radio station preset buttons
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) adjust audio volume
+        2) navigate infotainment screen
+        3) switch radio station
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) horizontal control
+        2) vertical control
+        3) lumbar support cushion
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) adjust horizontal position
+        2) adjust vertical position
 */
 
 /*
@@ -153,62 +153,6 @@ Part 1b Assignment: 1 Step
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 */
-
-/*
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
  /*
 Part 1c - Lesson
@@ -278,20 +222,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 */
-
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 Part 1d - Lesson
@@ -385,76 +315,6 @@ Step 3 is written below UDTs 5 - 9
 */
 
 /*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
 ===================
 Part 1d assignment: Step 3
 ===================
@@ -474,6 +334,281 @@ I will review the pseudo-code that you have written.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Thing 1) mixing console
+5 properties:
+    1) amount of faders (int)
+    2) number of buttons (int)
+    3) number of rotaries (int)
+    4) number of inputs (int)
+    5) number of outputs (int)
+3 things it can do:
+    1) adjust audio level
+    2) receive input signal
+    3) equalize audio signal
+ */
+
+/*
+Thing 2) car rental
+5 properties:
+    1) number of cars (int)
+    2) amount of insurance cost (float)
+    3) number of garages (int)
+    4) number of car cleaners (incl. half time) (float)
+    5) days of rental time (int)
+3 things it can do:
+    1) cleaning the car 
+    2) store the car
+    3) charge the customer
+ */
+
+/*
+Thing 3) broadcast company
+5 properties:
+    1) number of stations (int)
+    2) number of broacast vans (int)
+    3) percentage of news programs (float)
+    4) amount of ad revenue (double)
+    5) amount of power consumtion (float)
+3 things it can do:
+    1) broadcast program
+    2) schedule advertisement
+    3) pay power bill
+ */
+
+/*
+Thing 4) electric skateboard
+5 properties:
+    1) number of wheels
+    2) battery capacity
+    3) number of motors
+    4) maximum speed
+    5) breaking power
+3 things it can do:
+    1) drive
+    2) break
+    3) load battery
+ */
+
+/*
+Thing 5) Camera
+5 properties:
+    1) number of lenses (int)
+    2) resolution (double)
+    3) bit depth (int)
+    4) frame rate (int)
+    5) number of sensors (int)
+3 things it can do:
+    1) switch perspectives
+    2) adjust color room
+    3) do slow motion
+ */
+
+/*
+Thing 6) Keyboard
+5 properties:
+    1) number of keys (int)
+    2) key travel distance (float)
+    3) brightness of background light (double)
+    4) RGB of Background LEDs (int)
+    5) battery life indicator (int)
+3 things it can do:
+    1) change RGB color
+    2) show battery life
+    3) adjust background light brightness
+ */
+
+/*
+Thing 7) Motherboard
+5 properties:
+    1) power consumption (float) 
+    2) amount of RAM bus speed (double)
+    3) fan control in rpm (int)
+    4) sata controller transfer rate (double)  
+    5) PCIe bandwidth (double)
+3 things it can do:
+    1) regulate fan speed
+    2) balancing sata load
+    3) regulate power supply
+ */
+
+/*
+Thing 8) Battery
+5 properties:
+    1) heat sensors (float)
+    2) number of cells (int)
+    3) number of BMS (int)
+    4) charger (float)
+    5) i2c bus data rate (double)
+3 things it can do:
+    1) switch between battery and power supply
+    2) control draw
+    3) regulate charging voltage
+ */
+
+/*
+Thing 9) Audio Controller
+5 properties:
+    1) number of watts (float)
+    2) subwoofer crossover frequency (float)
+    3) nominal impedance (float)
+    4) freqency response (double)
+    5) number of sample rates (int)
+3 things it can do:
+    1) regulate audio level
+    2) adjust subwoofer roll off
+    3) switch between sample rates
+ */
+
+/*
+Thing 10) Laptop
+5 properties:
+    1) Camera
+    2) Keyboard
+    3) Motherboard
+    4) Battery
+    5) Audio Controller
+3 things it can do:
+    1) send binary key scan code to OS 
+    2) play audio stream
+    3) take picture
+ */
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
